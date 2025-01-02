@@ -9,7 +9,6 @@ with st.expander('DATA'):
   df= pd.read_csv('https://raw.githubusercontent.com/Mawuyram/IDS/refs/heads/master/Final/IDS/lib/data/NSL-KDD.csv')
   df
 
-#---------------------------------#
 # Page layout
 ## Page expands to full width
 st.set_page_config(page_title='The Machine Learning App',
