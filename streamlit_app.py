@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, r2_score
 
 
 st.title('MACHINE LEARNING APP')
@@ -81,13 +78,7 @@ Try adjusting the hyperparameters!
 
 """)
 
-#---------------------------------#
-# Sidebar - Collects user input features into dataframe
-with st.sidebar.header('1. Upload your CSV data'):
-    uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
-    st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/Mawuyram/IDS/refs/heads/master/Final/IDS/lib/data/NSL-KDD.csv)
-""")
+
 
 # Sidebar - Specify parameter settings
 with st.sidebar.header('2. Set Parameters'):
