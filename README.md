@@ -1,6 +1,6 @@
 #  🤖 MACHINE LEARNING ALGORTHM
 
-This is a machine learning algorthm
+This is a machine learning algorithm
 
 ## Demo App
 
